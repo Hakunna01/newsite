@@ -1,0 +1,174 @@
+*{
+   box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+/* Фон*/
+.background{
+    background: linear-gradient(to right,  #fff6f3 50%, rgb(255, 255, 255) 0);
+    background-size: 85px 100%;
+
+padding-top: 100px;
+height: 1800px;
+}
+/* Блок 1*/
+ .card{
+display:flex;
+width:200px;/*ширина*/
+height: 200px;/*висота*/ 
+margin-left: 90px;
+vertical-align:top;
+
+}
+.card-text {
+
+width:1200px;/*ширина*/
+height: 300px;
+display: inline-block;
+
+}
+
+.img{
+    padding-right: 60px;
+    width: 450px;
+    height: 510px;   
+}
+
+.card-text__title{
+    font-family: "Arial";
+    font-size: 40px;
+    font-weight: bold;
+display: inline-block;
+width: 600px;
+margin-top: 40px;
+margin-bottom: 10px;
+}
+
+.card-text__title2{
+    font-family: "Arial";
+    font-size: 25px;
+font-weight: 400;
+display: inline-block;
+width: 400px;
+margin-bottom: auto;
+margin-bottom: 30px;
+}
+
+.card-text__desc {
+    font-size: 15px;
+    font-family: "Arial";
+    color: rgb(47, 47, 47);
+    line-height: 1.3;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+span{
+    font-size: 35px;
+    font-family: "Arial";
+    color: rgb(47, 47, 47);
+    line-height: 1.3;
+    text-align: left;
+}
+
+.bth {
+    width: 500px;
+   margin-top: 35px;
+}
+
+.prace{
+    display: inline-block;
+    background-color: rgb(236, 116, 74);
+    width: 152px;
+    height: 60px;
+    text-decoration: none;
+    color: #ffff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+  margin-right: 30px;
+  font-weight: bold;
+  border:#f15921 3px solid ;
+}
+
+.diznatis{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    width: 252px;
+    height: 60px;
+    text-decoration: none;
+    color: #f15921;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    border:#f15921 3px solid ;
+    font-weight: bold;
+}
+
+/* Блок 2*/
+.card1 {
+    background: #f2f2f2; 
+    opacity: 0.57;
+  margin-top: 370px;
+  height: 310px;
+  text-align: center;
+  padding-top: 20px;
+
+  }
+  .h2{
+   margin-bottom: 87px;
+   padding-top: 20px;
+   font-weight: bold;
+   font-size: 30px;
+  }
+
+.all_items {
+    display: flex;    
+}
+
+.item_1,.item_2,.item_3,.item_4{
+    font-weight: 500;
+    font-size: 15px;
+margin: auto;
+height: 78.800px;
+}
+
+.car, .credit_card, .mailbox {
+  height: 59px;
+  width: 78px;
+  margin-bottom: 10px;
+  }
+
+.shopping_cart{
+    height: 64px;
+    width:70px ;
+    margin-bottom: 6px;
+  }
+  /* Блок 3*/
+  .card2{
+margin-top: 35px;
+padding-left: 98px;
+
+}
+
+.img_item_1{
+    display: contents;
+}
+
+.foto_1,.foto_2,.foto_3,.foto_4,.foto_5,.foto_6,.foto_7,.foto_8 {
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.h2_1{
+  
+display:block;
+ font-size: 30px;
+ padding-left: 450px;
+padding-bottom: 50px;
+}
